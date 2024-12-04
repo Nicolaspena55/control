@@ -16,9 +16,28 @@ respuestas
 2.La gráfica representa un análisis estático, es decir, en estado estacionario.En este caso, la ganancia α domina el comportamiento del sistema y puede asumirse como constante.
 
 3. se despeja u_(ee) de la ecuacion y eso da alrededor del 23,5% por lo que la señal de control disponible para compensar la temperatura es al rededor de 76,5%
+
+#### Paso 1
+
+Encuentre $y_a$ gráficamente o como el promedio de $N$ puntos antes del cambio del escalón y $y_b$ como el promedio de los últimos $N$ puntos registrados en la respuesta al escalón. 
+
+Establezca el valor de $u_a$ y $u_b$.
 ![termal2](https://github.com/user-attachments/assets/ba50a638-39fd-43c7-b68b-4ac3f9fa4254)
-#  respuesta experimental normalizada
+
+#### Paso 2
+
+Con los datos experimentales, encuentre y grafique la respuesta experimental normalizada $\overline{y}(t)$ del sistema por medio de siguiente ecuación:
+
+ $$\overline{y}(t) = \frac{y(t)-y_a}{\Delta\,y}$$
+ 
 ![termal4](https://github.com/user-attachments/assets/a129d094-fab7-4dc4-8a3e-d2a5f4c187bb)
+
+#### Paso 3
+
+Encuentre por medio de interpolación numérica de la curva experimental los valores de tiempo $t_1, t_2$ en los cuales la respuesta experimental normalizada $\overline{y}(t)$ alcanza dos valores en la zona inicial de máxima pendiente de la curva, en la cual $\overline{y}(t)\leq 0.5$.
+
+Por ejemplo, $\overline{y}_1=0.05$ y $\overline{y}_2=0.3$.
+
 ![termal5](https://github.com/user-attachments/assets/8a928872-a26e-46ad-8b2d-8c562c6a5ea7)
 ![termal6_50](https://github.com/user-attachments/assets/cde16d27-3571-4c6c-a9fb-c20238badfd8)
 ![termal7_60](https://github.com/user-attachments/assets/535d973c-16bf-4f12-b8e9-54aed0e9b29e)
