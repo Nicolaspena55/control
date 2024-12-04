@@ -76,5 +76,7 @@ a. Asignándole orden a los métodos de mejor a peor el orden seria
 b.el método de zieger nichols es el menos robusto de los tres primeros métodos por 
 ende no es recomendable.
 
++ ¿Cuánto demora aproximadamente el controlador PI programado en rechazar la perturbación de temperatura producida por la mano?
 
+-demora alrededor de 5 segundos en estabilizarse con una pequeña fluctuación
 
