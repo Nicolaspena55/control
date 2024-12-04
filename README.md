@@ -39,6 +39,15 @@ e.Las variables tiene un comportamiento similar sin embargo el orden de magnitud
 
 
 #sintonia de PID
+### Otros métodos de sintonía 
+
+Existen una infinidad de métodos de sintonía. Con base en propuesta original de Ziegler y Nichols han seguido apareciendo nuevas propuestas de sintonía que preservan la filosofía del método original en cuanto a su simplicidad (solo se requiere hacer un modelo aproximado de primer orden del proceso). La tabla siguiente contiene algunos métodos de sintonización reportados en la literatura para controladores PI.
+
+| **Propuesto por** | **Ganancia Proporcional** $k_p$                | **Ganancia Integral** $k_i$                | 
+|-------------------------|------------------------------------------------|--------------------------------------------|
+| **Skogestad (2003)**           |   $\dfrac{0.5\,\tau}{\alpha\,L}$   | $\min(\tau, 8\,L)$ |
+| **Taguchi y Araki (2000)**           |   $\dfrac{0.1787 + \dfrac{0.2839}{\dfrac{L}{\tau} + 0.001723}}{\alpha}$  | $\dfrac{k_p}{4.296 + 3.794 \cdot \dfrac{L}{\tau} + 0.2591 \cdot \left(\dfrac{L}{\tau}\right)^2}$|
+|**Åström and Hägglund (2006)**                | $\dfrac{0.15}{\alpha} + \left(0.35 - \dfrac{L \cdot \tau}{(L + \tau)^2}\right) \dfrac{\tau}{\alpha \cdot L} $               |  $\dfrac{k_p}{0.35 \cdot L + \frac{13 \cdot L \cdot \tau^2}{\tau^2 + 12 \cdot L \cdot \tau + 7 \cdot L^2}}$   |
 
 ![lab1_b_termal_metodoah](https://github.com/user-attachments/assets/26a6cf61-e5fa-4c25-8ea5-0f9e2047bf10)
 
