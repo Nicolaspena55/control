@@ -40,4 +40,23 @@ e.Las variables tiene un comportamiento similar sin embargo el orden de magnitud
 
 #sintonia de PID
 
+![lab1_b_termal_metodoah](https://github.com/user-attachments/assets/26a6cf61-e5fa-4c25-8ea5-0f9e2047bf10)
+
+
+![lab1_b_termal_metodoSK](https://github.com/user-attachments/assets/e1b99e3a-8dcd-4e1e-8e66-2e336ab3908b)
+
+![lab1_b_termal_metodota](https://github.com/user-attachments/assets/fb3e7e33-0551-460e-8fd8-f4a5e41af1a2)
+
+![lab1_b_termal_unidas](https://github.com/user-attachments/assets/8e2c53dc-4983-4e83-8696-acd17def9346)
+a. Asignándole orden a los métodos de mejor a peor el orden seria 
+1.taguchi y araki
+2.skogestad
+3.ziegler-nichols
+4.astrom  y h
+
+
+b.el método de zieger nichols es el menos robusto de los tres primeros métodos por 
+ende no es recomendable.
+
+
 
