@@ -1,11 +1,21 @@
 # control
 
 ![termal recta](https://github.com/user-attachments/assets/0c3858fe-15f0-4dcc-89b9-bb427df5d2f5)
-a.Este modelo no muestra que haya partes especialmente difíciles de controlar, porque no hay cambios bruscos ni saltos. Pero en un sistema real, cosas como los retrasos, comportamientos inesperados o límites en la capacidad de ajuste pueden hacer que sea más difícil controlar la temperatura. Es como si el modelo fuera más simple que la realidad, donde esos problemas extra pueden complicar las cosas.
+### Preguntas orientadoras sobre el modelo estático
 
-b.La gráfica representa un análisis estático, es decir, en estado estacionario.En este caso, la ganancia α domina el comportamiento del sistema y puede asumirse como constante.
+Por favor discuta las preguntas con su compañero inmediatamente durante la práctica y respondalas en su videoinforme 
 
-c. se despeja u_(ee) de la ecuacion y eso da alrededor del 23,5% por lo que la señal de control disponible para compensar la temperatura es al rededor de 76,5%
+1.  Considere que el rango de operación va desde  $40^oC$ hasta $100^oC$. ¿Existen temperaturas en este rango más dificiles de controlar, según el modelo estático?
+2.  Suponga que un modelo aproximado del sistema térmico está dado por $G(s)=\frac{\alpha}{\tau\,s+1}$. ¿Cual de los parámetros ($\alpha$ o $\tau$) podriamos asumir como aproximadamente constante, según la curva del modelo estático?
+3.  ¿Cual es la señal de control necesaria para controlar una temperatura cercana a $60^oC$ y cuanto nos queda de acción de control si tenemos que compensar una temperatura muy fria que actúa como perturbación?
+
+respuestas
+
+1.Este modelo no muestra que haya partes especialmente difíciles de controlar, porque no hay cambios bruscos ni saltos. Pero en un sistema real, cosas como los retrasos, comportamientos inesperados o límites en la capacidad de ajuste pueden hacer que sea más difícil controlar la temperatura. Es como si el modelo fuera más simple que la realidad, donde esos problemas extra pueden complicar las cosas.
+
+2.La gráfica representa un análisis estático, es decir, en estado estacionario.En este caso, la ganancia α domina el comportamiento del sistema y puede asumirse como constante.
+
+3. se despeja u_(ee) de la ecuacion y eso da alrededor del 23,5% por lo que la señal de control disponible para compensar la temperatura es al rededor de 76,5%
 ![termal2](https://github.com/user-attachments/assets/ba50a638-39fd-43c7-b68b-4ac3f9fa4254)
 #  respuesta experimental normalizada
 ![termal4](https://github.com/user-attachments/assets/a129d094-fab7-4dc4-8a3e-d2a5f4c187bb)
