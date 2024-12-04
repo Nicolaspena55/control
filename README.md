@@ -50,7 +50,13 @@ Por ejemplo, $\overline{y}_1=0.05$ y $\overline{y}_2=0.3$.
 
 + Compare  los modelos obtenidos  a $60^o$ y a  $80^o$ ¿Son similares los parámetros obtenidos en cada uno de estos modelos?
 
+son diferentes ya que en cada caso da diferentes variables y viendo los parametros obtenidos nos damos cuenta que difieren en la facilidad de controlar el sistema
+
 + Consideremos el modelo estático y los dos modelos dinámicos. Discuta que diferencias podrían existir al controlar el sistema térmico en un punto de operación cercano a $60^o$ y en un punto cercano a $80^o$.
+
+Respuesta térmica más rápida a 60 °C: A temperaturas más bajas (como 60 °C), el sistema tiene una constante de tiempo más pequeña, lo que significa que responde más rápido a los cambios en la entrada. Esto podría hacer que el sistema sea más fácil de controlar a baja temperatura debido a una respuesta más rápida.
+
+Respuesta térmica más lenta a 80 °C: A temperaturas más altas, la constante de tiempo del sistema puede ser mayor, lo que implica que el sistema podría ser más lento para responder a las perturbaciones. esto por  que las oscilaciones y los picos de temperatura podrían tardar más en estabilizarse.
 
 
 ![lab1_a_motor der_izq](https://github.com/user-attachments/assets/6718b32a-3ffe-41bd-a95f-c8d27b96e564)
