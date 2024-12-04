@@ -2,7 +2,9 @@
 
 ![termal recta](https://github.com/user-attachments/assets/0c3858fe-15f0-4dcc-89b9-bb427df5d2f5)
 a.Este modelo no muestra que haya partes especialmente difíciles de controlar, porque no hay cambios bruscos ni saltos. Pero en un sistema real, cosas como los retrasos, comportamientos inesperados o límites en la capacidad de ajuste pueden hacer que sea más difícil controlar la temperatura. Es como si el modelo fuera más simple que la realidad, donde esos problemas extra pueden complicar las cosas.
+
 b.La gráfica representa un análisis estático, es decir, en estado estacionario.En este caso, la ganancia α domina el comportamiento del sistema y puede asumirse como constante.
+
 c. se despeja u_(ee) de la ecuacion y eso da alrededor del 23,5% por lo que la señal de control disponible para compensar la temperatura es al rededor de 76,5%
 ![termal2](https://github.com/user-attachments/assets/ba50a638-39fd-43c7-b68b-4ac3f9fa4254)
 #  respuesta experimental normalizada
@@ -15,16 +17,24 @@ c. se despeja u_(ee) de la ecuacion y eso da alrededor del 23,5% por lo que la s
 
 ![lab1_a_motor der_izq](https://github.com/user-attachments/assets/6718b32a-3ffe-41bd-a95f-c8d27b96e564)
 a. zona muerta del motor es la región alrededor de 0V en la cual el motor no responde significativamente a la entrada de voltaje. Esto ocurre debido a cosas como el rozamiento estático o las características del controlador del motor.
+
 b.principalmente creemos que es dificil controlar en 2 zonas , la primera la zona muerta del motor, otra seria despues de los limites maximos ya que en este punto alcanza una saturacion .
+
 c.el motor es controlable dentro de su region lineal , esto se ve en la grafica entre mas o menos por encima de  -600 deg/sy por debajo de  600 deg/s
+
 d.El parámetro t es aproximadamente la pendiente de la curva por ende hay una sección de la curva que si presenta la linealidad de la curva  es muy cercana a la pendiente, en cambio en la parte no lineal esta pendiente varia.
+
 ![lab1_a_motor_150](https://github.com/user-attachments/assets/c5554036-175f-4321-bcef-c7ec1441da94)
 ![lab1_a_motor_300](https://github.com/user-attachments/assets/7c7da14a-2c32-44a6-b3ab-7337b853ca2f)
 ![lab1_a_motor_600](https://github.com/user-attachments/assets/7f0dc7d4-1b1e-417b-8fc0-85aedf53835a)
 a.la constante de tiempo disminuye a medida de que aumenta la 
+
 b.Se requeriría un sistema mas complejo el cual pueda manejar esta velocidad pero así mismo las variaciones principalmente en el eje y serian menores lo que haría que la aproximación sea mucho mas cercana a los datos obtenidos
+
 c.Esta constante si aumenta al incrementar la velocidad del motor
+
 d.reducir la incertidumbre implica agregar estabilidad frente a los datos obtenidos en comparación con los datos aproximados y se podría parametrizar mejor el sistema 
+
 e.Las variables tiene un comportamiento similar sin embargo el orden de magnitud es distinto , específicamente para el parámetro t es aproximadamente 100 veces mayor que en el sistema térmico por ende también las incertidumbres deberían tener un rango acorde a la escala de t lo que implica que las incertidumbres en el sistema del motor sean mucho menores con respecto a las del sistema térmico y esto aplica para todos los casos probados
 
 
