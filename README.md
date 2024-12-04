@@ -80,3 +80,47 @@ ende no es recomendable.
 
 -demora alrededor de 5 segundos en estabilizarse con una pequeña fluctuación
 
+#### Pregunta
+
+Según este experimento y los anteriores, ¿Cuál es la mayor limitación de usar solo acción proporcional **P** y cual es la mejora fundamental que introduce la acción integral dada por el controlador **PI**?
+
+
+-p el proporcional es solo la ganancia, y el pi es considerar la integración por tanto considera también el erro por encima del valor objetivo por ende este modelo pi es mejor por que evita sobrepasarse del valor objetivo
+
+
+
+### Experimentos propuestos
+
+Realice los siguientes experimentos con un escalón de referencia de velocidad que cambia desde `r0=0` a `r1=360`.  Para los 2 experimentos use nombres diferentes en las variables de salida para después poderlos graficar conjuntamente.
+
+
+1. Sintonice un controlador PI por el método de Taguchi y Araki y obtenga la respuesta de lazo cerrado
+
+1. Sintonice un controlador PI por el método de Åström and Hägglund y obtenga la respuesta de lazo cerrado
+
+
+#### Pregunta
+
++ Grafique en una misma gráfica la respuesta de los 3 experimentos de sintonia (Ziegler-Nichols, Taguchi y Araki, Åström and Hägglund).
+![POR SIACASO](https://github.com/user-attachments/assets/3156cef7-a23f-4da4-8456-0ecc5563257c)
+
+
+### Experimento sensorial de robustez a perturbaciones
+
+Realice conjuntamente con su colega los siguientes pasos para probar tactilmente la robustez a perturbaciones que posee cada controlador PI sintonizado. 
+
++ **Paso 1:** Ajuste la perilla del encoder con el indicador apuntando como se muestra en la figura. 
+
+<img src="https://github.com/nebisman/UNThermal/blob/main/code/python_code/notebooks_lab_2024_2/motor0deg.png?raw=true" alt="PID" width="200"/>
+
++ **Paso 2:** Programe el controlador PI con la función `set_pid()` usando uno de los 3 métodos de sintonía. No es necesario obtener la respuesta al escalón. Esto lo haremos sensorialmente.
+  
+
+
++ **Paso 3:** Ajuste una velocidad de $90^o/s$ mediante la posición de la perilla indicada en la figura siguiente:
+
+<img src="https://github.com/nebisman/UNThermal/blob/main/code/python_code/notebooks_lab_2024_2/motor90deg.png?raw=true" alt="PID" width="200"/>
+
++ **Paso 4:** Intente acelerar o frenar suavemente el motor con la mano, percibiendo el rechazo del controlador a la perturbación impuesta. 
+
++ **Probar todos** Repita los pasos 1 a 4 para los 3 controladores PI, es decir para el sintonizado por las reglas de Ziegler-Nichols; de Taguchi y Araki; y, de Skogestad.  
