@@ -46,7 +46,16 @@ e.Las variables tiene un comportamiento similar sin embargo el orden de magnitud
 ![lab1_b_termal_metodoSK](https://github.com/user-attachments/assets/e1b99e3a-8dcd-4e1e-8e66-2e336ab3908b)
 
 ![lab1_b_termal_metodota](https://github.com/user-attachments/assets/fb3e7e33-0551-460e-8fd8-f4a5e41af1a2)
+### Trabajo experimental con el sistema térmico
 
+Realice los siguientes experimentos con un escalón que cambia desde `r0=50` a `r1=60`.  Para los 2 experimentos use nombres diferentes en las variables de salida para poder después graficarlos conjuntamente. Por ejemplo, para el experimento 1 (valores de Skogestad) puede usar:
+
+`t_sk, r_sk, y_sk, u_sk = temp.step_closed(mi_termico,r0=r0, r1=r1, t0=t0, t1=t1)`
+
+
+1. Sintonice un controlador PI por el método de Skogestad y obtenga la respuesta al escalón en lazo cerrado.
+
+1. Sintonice un controlador PI por el método de Åström and Hägglund y obtenga la respuesta al escalón en lazo cerrado.
 ![lab1_b_termal_unidas](https://github.com/user-attachments/assets/8e2c53dc-4983-4e83-8696-acd17def9346)
 a. Asignándole orden a los métodos de mejor a peor el orden seria 
 1.taguchi y araki
