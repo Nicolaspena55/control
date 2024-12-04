@@ -42,6 +42,15 @@ Por ejemplo, $\overline{y}_1=0.05$ y $\overline{y}_2=0.3$.
 ![termal6_50](https://github.com/user-attachments/assets/cde16d27-3571-4c6c-a9fb-c20238badfd8)
 ![termal7_60](https://github.com/user-attachments/assets/535d973c-16bf-4f12-b8e9-54aed0e9b29e)
 ![termal8_80](https://github.com/user-attachments/assets/e8fe5bb9-52d6-4992-9dae-4dfbeda7a750)
+### Trabajo experimental con el sistema térmico
+
++ Obtenga modelos para el sistema térmico en los puntos de operación de $60^o$ y $80^o$ usando la función `get_fomodel_step`. 
+
+#### Preguntas orientadoras sobre los modelos dinámicos
+
++ Compare  los modelos obtenidos  a $60^o$ y a  $80^o$ ¿Son similares los parámetros obtenidos en cada uno de estos modelos?
+
++ Consideremos el modelo estático y los dos modelos dinámicos. Discuta que diferencias podrían existir al controlar el sistema térmico en un punto de operación cercano a $60^o$ y en un punto cercano a $80^o$.
 
 
 ![lab1_a_motor der_izq](https://github.com/user-attachments/assets/6718b32a-3ffe-41bd-a95f-c8d27b96e564)
